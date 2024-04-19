@@ -142,6 +142,11 @@ h2{
     color: #1F2937;
 }
 
+.call-to-action{
+    background-color:#F9FAF8 ;
+    padding: 24px 0px;
+}
+
 .sign-up-prompt {
     display:flex;
     align-items: center;
