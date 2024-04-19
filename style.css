@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: auto;
+    background-color: #E5E7EB;
 }
 
 .header {
@@ -139,6 +140,27 @@ h2{
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+.sign-up-prompt {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius:8px;
+    margin: 42px 100px;
+}
+
+.prompt-text{
+    overflow: auto;
+}
+
+.prompt-text , p{
+    color: #E5E7EB;
+}
+
+.sign-up-prompt button {
+    border: 2px solid white;
 }
 
 .footer
