@@ -15,10 +15,18 @@ body{
     flex-direction: column;
 }
 
+.header, .footer {
+    display: flex;
+    padding: 16px;
+    background-color: #1F2937;
+}
+
 .logos-and-links{
     display:flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content:space-between;
+    margin: 0 40px;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -27,10 +35,11 @@ body{
 }
 
 ul {
-    
     list-style-type: none;
     padding : 0 ;
     margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
 a {
@@ -42,12 +51,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 40px 150px;
 }
 
 .header-text, h1 {
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
+    flex-grow: 3;
+}
+
+.header-text  p, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content img{
+    width: 400px;
+    border-radius:50px 15px;
 }
 
 button {
@@ -65,21 +86,59 @@ button:hover {
     background-color: #0056b3;
 }
 
-.header-text  p, ul {
-    font-size: 18px;
-    color: #E5E7EB;
+.information-cards{
+    display:flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    align-items: center;
+    padding-bottom: 75px;
 }
 
+h2{
+    color: black;
+    font-weight: 900;
+    font-size: 36px;
+}
 
-img {
-    width: 400px;
-    height: auto;
-  }
+.card-space{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
 
-.header, .footer {
+.card-space img {
+    height: 180px;
+    border:4px solid #3882F6;
+    border-radius:50px;
+}
+
+.card p {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote{
     display: flex;
-    padding: 16px;
-    background-color: #1F2937;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .footer
